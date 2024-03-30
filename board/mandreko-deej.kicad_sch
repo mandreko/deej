@@ -5,45 +5,46 @@
 	(uuid "379365fa-235f-4d88-9898-4a3fc2908670")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Bourns:PTA6043-2015DPB103"
+		(symbol "Bourns:PTA6043-2015DP-B103"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 10.795 -3.175 0)
+				(at 2.54 -7.62 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "PTA6043-2015DPB103"
-				(at 10.795 -6.35 0)
+			(property "Value" "PTA6043-2015DP-B103"
+				(at 2.54 -5.08 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "POT_PTA6043"
+			(property "Footprint" "PTA6043-2015DP-B103:PTA6043-2015DP-B103"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "PTA6043-2015DPB103"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -57,39 +58,93 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "MF" "Bourns"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "PTA6043-2015DPB103"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "POT_PTA6043"
+			(property "Description_1" "\nPTA Series, Linear Potentiometer, 10kOhms, +/-20%, 0.25W, Through Hole | Bourns PTA6043-2015DPB103\n"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "PTA6043-2015DPB103_1_1"
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PTA6043-2015DPB103"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PTA6043-2015DP-B103_1_0"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 6.35 0)
+						(xy -2.54 -2.54) (xy -2.54 -0.508)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -98,10 +153,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 0) (xy 6.985 1.27)
+						(xy -2.54 -0.508) (xy -3.048 -1.524)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -110,10 +165,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 1.27) (xy 8.255 -1.27)
+						(xy -2.54 -0.508) (xy -2.032 -1.524)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -122,10 +177,10 @@
 				)
 				(polyline
 					(pts
-						(xy 8.255 -1.27) (xy 9.525 1.27)
+						(xy -2.1597 1.2939) (xy -1.7018 2.2352)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -134,10 +189,10 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 1.27) (xy 10.795 -1.27)
+						(xy -0.762 -2.54) (xy 0.762 -2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -146,10 +201,10 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 3.81) (xy 10.16 1.905)
+						(xy -0.762 2.54) (xy -0.762 -2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -158,10 +213,10 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 3.81) (xy 10.795 3.81)
+						(xy 0.762 -2.54) (xy 0.762 2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -170,10 +225,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 3.81) (xy 10.16 5.08)
+						(xy 0.762 2.54) (xy -0.762 2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -182,10 +237,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.795 -1.27) (xy 12.065 1.27)
+						(xy 1.651 0) (xy -1.8796 1.7526)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -194,314 +249,146 @@
 				)
 				(polyline
 					(pts
-						(xy 10.795 3.81) (xy 10.16 1.905)
+						(xy 2.54 0) (xy 1.651 0)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 12.065 1.27) (xy 13.335 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.335 -1.27) (xy 13.97 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 0) (xy 17.78 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
+				(pin passive line
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "1"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 10.16 7.62 270)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 20.32 0 180)
+				(pin passive line
+					(at 0 5.08 270)
 					(length 2.54)
-					(name "3"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 			)
-			(symbol "PTA6043-2015DPB103_1_2"
-				(polyline
-					(pts
-						(xy -3.81 -10.795) (xy -3.81 -9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -10.795) (xy -1.905 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -10.16) (xy -5.08 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -9.525) (xy -1.905 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -13.335) (xy 1.27 -12.065)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.795) (xy 1.27 -9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -8.255) (xy 1.27 -6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -17.78) (xy 0 -13.97)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -13.97) (xy -1.27 -13.335)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.35) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -12.065) (xy -1.27 -10.795)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -9.525) (xy -1.27 -8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.985) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
+			(symbol "PTA6043-2015DP-B103_2_0"
+				(pin passive line
 					(at 0 0 270)
-					(length 2.54)
-					(name "1"
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "S1"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -10.16 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -20.32 90)
-					(length 2.54)
-					(name "3"
+			)
+			(symbol "PTA6043-2015DP-B103_3_0"
+				(pin passive line
+					(at 0 0 270)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "S2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PTA6043-2015DP-B103_4_0"
+				(pin passive line
+					(at 0 0 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PTA6043-2015DP-B103_5_0"
+				(pin passive line
+					(at 0 0 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1953,6 +1840,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 77.47) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42090497-53d8-4b5f-96e8-21a73cb5a9b7")
+	)
+	(wire
+		(pts
 			(xy 115.57 53.34) (xy 115.57 63.5)
 		)
 		(stroke
@@ -1960,6 +1857,16 @@
 			(type default)
 		)
 		(uuid "42cecaec-40eb-4cb3-814c-5244cb2520e0")
+	)
+	(wire
+		(pts
+			(xy 209.55 92.71) (xy 209.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f3aed6-821f-4370-b83b-f7cac12d169c")
 	)
 	(wire
 		(pts
@@ -2013,7 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 151.13 124.46)
+			(xy 140.97 124.46) (xy 151.13 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2030,6 +1937,16 @@
 			(type default)
 		)
 		(uuid "68e3028c-2044-4321-84dd-6226ff514d94")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 133.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74534f8f-d0c1-4839-b794-fefc8baf2299")
 	)
 	(wire
 		(pts
@@ -2050,6 +1967,16 @@
 			(type default)
 		)
 		(uuid "7f200264-45df-4650-8637-542b7fd24a57")
+	)
+	(wire
+		(pts
+			(xy 107.95 77.47) (xy 107.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825f56bc-6ffa-4642-815e-e7488dfd3b4b")
 	)
 	(wire
 		(pts
@@ -2080,6 +2007,36 @@
 			(type default)
 		)
 		(uuid "8eaef916-fcf9-430b-b4fb-9ae8eae46bcb")
+	)
+	(wire
+		(pts
+			(xy 107.95 92.71) (xy 107.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909a8a62-3910-4914-9ca5-dc800d1aa1a0")
+	)
+	(wire
+		(pts
+			(xy 158.75 77.47) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca721c6-fcf1-4457-8fb8-8c0cc05e45ed")
+	)
+	(wire
+		(pts
+			(xy 133.35 77.47) (xy 133.35 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3477257-c55f-40a1-8789-ab62bcebe34c")
 	)
 	(wire
 		(pts
@@ -2163,6 +2120,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 92.71) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda8a661-2d66-4cde-9ae7-db8e6741c5f7")
+	)
+	(wire
+		(pts
 			(xy 95.25 116.84) (xy 107.95 116.84)
 		)
 		(stroke
@@ -2170,6 +2137,16 @@
 			(type default)
 		)
 		(uuid "c04c9ca4-3635-425e-ab72-aeceac89f1c5")
+	)
+	(wire
+		(pts
+			(xy 158.75 92.71) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d8ba13-489c-435f-8eb9-969213756f59")
 	)
 	(wire
 		(pts
@@ -2280,6 +2257,16 @@
 			(type default)
 		)
 		(uuid "ef03ec2f-a98a-4abb-b825-0b1af3e2c6dc")
+	)
+	(wire
+		(pts
+			(xy 209.55 77.47) (xy 209.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b3c672-e206-493d-b109-5934dd1afc54")
 	)
 	(wire
 		(pts
@@ -2447,7 +2434,7 @@
 	)
 	(global_label "A1"
 		(shape input)
-		(at 151.13 87.63 180)
+		(at 153.67 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2457,7 +2444,7 @@
 		)
 		(uuid "276c9cfa-718a-4283-a542-74d2024beca8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.8467 87.63 0)
+			(at 148.3867 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2522,7 @@
 	)
 	(global_label "A0"
 		(shape input)
-		(at 176.53 87.63 180)
+		(at 179.07 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2545,7 +2532,7 @@
 		)
 		(uuid "5d0f05c1-7960-4671-a63b-40025ada9814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.2467 87.63 0)
+			(at 173.7867 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2654,7 @@
 	)
 	(global_label "A2"
 		(shape input)
-		(at 125.73 87.63 180)
+		(at 128.27 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2677,7 +2664,7 @@
 		)
 		(uuid "8e13f666-33f3-4591-a11d-d7d4fc599c15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.4467 87.63 0)
+			(at 122.9867 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2764,7 @@
 	)
 	(global_label "A3"
 		(shape input)
-		(at 100.33 87.63 180)
+		(at 102.87 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2787,7 +2774,7 @@
 		)
 		(uuid "abbfa0b1-74b1-450a-a1a0-352f34410098")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.0467 87.63 0)
+			(at 97.5867 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +2808,7 @@
 	)
 	(global_label "A6"
 		(shape input)
-		(at 201.93 87.63 180)
+		(at 204.47 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2831,7 +2818,7 @@
 		)
 		(uuid "db247005-695e-420f-a495-d0e93f41b3c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.6467 87.63 0)
+			(at 199.1867 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,8 +3027,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Bourns:PTA6043-2015DPB103")
-		(at 184.15 97.79 90)
+		(lib_id "Bourns:PTA6043-2015DP-B103")
+		(at 184.15 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3050,7 +3037,7 @@
 		(fields_autoplaced yes)
 		(uuid "1114c77b-6e69-4f48-a471-28f796479ec9")
 		(property "Reference" "R4"
-			(at 186.69 86.3599 90)
+			(at 187.96 87.6299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3059,7 +3046,7 @@
 			)
 		)
 		(property "Value" "PTA6043-2015DPB103"
-			(at 186.69 88.8999 90)
+			(at 175.2599 85.09 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3068,32 +3055,111 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "POT_PTA6043"
-			(at 184.15 97.79 0)
+		(property "Footprint" "Bourns:PTA6043-2015DP-B103"
+			(at 184.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PTA6043-2015DPB103"
-			(at 184.15 97.79 0)
+		(property "Datasheet" "https://octopart.com/datasheet/pta6043-2015dpb103-bourns-10486550"
+			(at 184.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 184.15 97.79 0)
+			(at 184.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nPTA Series, Linear Potentiometer, 10kOhms, +/-20%, 0.25W, Through Hole | Bourns PTA6043-2015DPB103\n"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=snap"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PTA6043-2015DPB103"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=eda"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -3105,6 +3171,18 @@
 		)
 		(pin "2"
 			(uuid "3ccf31a5-d11e-44e2-9fa7-17c66868dd64")
+		)
+		(pin "S4"
+			(uuid "72fd6a63-9ba5-4685-b5e6-11ce39c76cac")
+		)
+		(pin "S3"
+			(uuid "6053dc6a-a757-4d65-896c-94186f664c89")
+		)
+		(pin "S1"
+			(uuid "fb057c8e-c837-4359-a0df-59b7340021f9")
+		)
+		(pin "S2"
+			(uuid "3f86e95a-52bd-4777-bd47-0a9269c5ef8a")
 		)
 		(instances
 			(project "mandreko-deej"
@@ -3733,8 +3811,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Bourns:PTA6043-2015DPB103")
-		(at 107.95 97.79 90)
+		(lib_id "Bourns:PTA6043-2015DP-B103")
+		(at 107.95 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3743,7 +3821,7 @@
 		(fields_autoplaced yes)
 		(uuid "6eb2bb4c-6a86-4f26-905d-b83121388b1c")
 		(property "Reference" "R1"
-			(at 110.49 86.3599 90)
+			(at 111.76 87.6299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3752,7 +3830,7 @@
 			)
 		)
 		(property "Value" "PTA6043-2015DPB103"
-			(at 110.49 88.8999 90)
+			(at 99.0599 85.09 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3761,32 +3839,111 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "POT_PTA6043"
-			(at 107.95 97.79 0)
+		(property "Footprint" "Bourns:PTA6043-2015DP-B103"
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PTA6043-2015DPB103"
-			(at 107.95 97.79 0)
+		(property "Datasheet" "https://octopart.com/datasheet/pta6043-2015dpb103-bourns-10486550"
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 107.95 97.79 0)
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nPTA Series, Linear Potentiometer, 10kOhms, +/-20%, 0.25W, Through Hole | Bourns PTA6043-2015DPB103\n"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=snap"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PTA6043-2015DPB103"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=eda"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -3798,6 +3955,18 @@
 		)
 		(pin "2"
 			(uuid "91842807-6cf8-4b96-baf6-fedc2c10249a")
+		)
+		(pin "S3"
+			(uuid "0b439204-3ec0-4e80-b923-72029a7548bc")
+		)
+		(pin "S1"
+			(uuid "a520c265-f7af-494d-9ed5-92c52d404da1")
+		)
+		(pin "S2"
+			(uuid "82083d75-06e5-4e9b-99c4-f000a5434ffe")
+		)
+		(pin "S4"
+			(uuid "d6aaf6df-d3a0-4fcd-a328-864371ef01ee")
 		)
 		(instances
 			(project "mandreko-deej"
@@ -3877,8 +4046,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Bourns:PTA6043-2015DPB103")
-		(at 158.75 97.79 90)
+		(lib_id "Bourns:PTA6043-2015DP-B103")
+		(at 158.75 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3887,7 +4056,7 @@
 		(fields_autoplaced yes)
 		(uuid "7716615d-305e-4b7e-ae88-433553743a80")
 		(property "Reference" "R3"
-			(at 161.29 86.3599 90)
+			(at 162.56 87.6299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3896,7 +4065,7 @@
 			)
 		)
 		(property "Value" "PTA6043-2015DPB103"
-			(at 161.29 88.8999 90)
+			(at 149.8599 85.09 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3905,32 +4074,111 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "POT_PTA6043"
-			(at 158.75 97.79 0)
+		(property "Footprint" "Bourns:PTA6043-2015DP-B103"
+			(at 158.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PTA6043-2015DPB103"
-			(at 158.75 97.79 0)
+		(property "Datasheet" "https://octopart.com/datasheet/pta6043-2015dpb103-bourns-10486550"
+			(at 158.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 158.75 97.79 0)
+			(at 158.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nPTA Series, Linear Potentiometer, 10kOhms, +/-20%, 0.25W, Through Hole | Bourns PTA6043-2015DPB103\n"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=snap"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PTA6043-2015DPB103"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=eda"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -3943,6 +4191,18 @@
 		(pin "2"
 			(uuid "a03a9eb9-c7cf-4da0-be25-9ef7506cb72d")
 		)
+		(pin "S1"
+			(uuid "98011a3a-cfbb-4cc5-be0e-8602d3744fe5")
+		)
+		(pin "S3"
+			(uuid "c4d49123-501e-4ac4-8f05-f527f16fe42b")
+		)
+		(pin "S2"
+			(uuid "cb2d8f21-7405-4bbe-9173-beddf32330c2")
+		)
+		(pin "S4"
+			(uuid "99778205-d526-4cba-adae-55f7033b66b9")
+		)
 		(instances
 			(project "mandreko-deej"
 				(path "/379365fa-235f-4d88-9898-4a3fc2908670"
@@ -3953,8 +4213,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Bourns:PTA6043-2015DPB103")
-		(at 133.35 97.79 90)
+		(lib_id "Bourns:PTA6043-2015DP-B103")
+		(at 133.35 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3963,7 +4223,7 @@
 		(fields_autoplaced yes)
 		(uuid "78e0988f-af85-486f-be92-09954154cce2")
 		(property "Reference" "R2"
-			(at 135.89 86.3599 90)
+			(at 137.16 87.6299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3972,7 +4232,7 @@
 			)
 		)
 		(property "Value" "PTA6043-2015DPB103"
-			(at 135.89 88.8999 90)
+			(at 124.4599 85.09 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3981,32 +4241,111 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "POT_PTA6043"
-			(at 133.35 97.79 0)
+		(property "Footprint" "Bourns:PTA6043-2015DP-B103"
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PTA6043-2015DPB103"
-			(at 133.35 97.79 0)
+		(property "Datasheet" "https://octopart.com/datasheet/pta6043-2015dpb103-bourns-10486550"
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 133.35 97.79 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nPTA Series, Linear Potentiometer, 10kOhms, +/-20%, 0.25W, Through Hole | Bourns PTA6043-2015DPB103\n"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=snap"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PTA6043-2015DPB103"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=eda"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -4018,6 +4357,18 @@
 		)
 		(pin "2"
 			(uuid "608b380c-17fa-48d4-9d5e-4b15ee7993e2")
+		)
+		(pin "S1"
+			(uuid "b60a81d5-9cec-4bfb-b04d-ba6eeff7807c")
+		)
+		(pin "S4"
+			(uuid "7383aac9-a182-4b03-90df-7df1de00879b")
+		)
+		(pin "S2"
+			(uuid "5862725d-b5cd-43d3-a57f-a03976045c80")
+		)
+		(pin "S3"
+			(uuid "356f9111-34a0-420a-a958-dd8aa7d2fe18")
 		)
 		(instances
 			(project "mandreko-deej"
@@ -4728,8 +5079,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Bourns:PTA6043-2015DPB103")
-		(at 209.55 97.79 90)
+		(lib_id "Bourns:PTA6043-2015DP-B103")
+		(at 209.55 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4738,7 +5089,7 @@
 		(fields_autoplaced yes)
 		(uuid "e226ec11-c0d9-4eb6-aa9c-f856017d8f41")
 		(property "Reference" "R5"
-			(at 212.09 86.3599 90)
+			(at 213.36 87.6299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4747,7 +5098,7 @@
 			)
 		)
 		(property "Value" "PTA6043-2015DPB103"
-			(at 212.09 88.8999 90)
+			(at 200.6599 85.09 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4756,32 +5107,111 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "POT_PTA6043"
-			(at 209.55 97.79 0)
+		(property "Footprint" "Bourns:PTA6043-2015DP-B103"
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PTA6043-2015DPB103"
-			(at 209.55 97.79 0)
+		(property "Datasheet" "https://octopart.com/datasheet/pta6043-2015dpb103-bourns-10486550"
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 209.55 97.79 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nPTA Series, Linear Potentiometer, 10kOhms, +/-20%, 0.25W, Through Hole | Bourns PTA6043-2015DPB103\n"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=snap"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PTA6043-2015DPB103"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTA6043-2015DPB103/Bourns/view-part/?ref=eda"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -4793,6 +5223,18 @@
 		)
 		(pin "2"
 			(uuid "c1ad13e0-9455-4bbf-89ea-c9850306fbdb")
+		)
+		(pin "S4"
+			(uuid "08fc06fe-4e7a-4094-9461-c695154ceffe")
+		)
+		(pin "S3"
+			(uuid "209ca816-7e07-4ffd-9705-c58b9a5b4ee2")
+		)
+		(pin "S2"
+			(uuid "b96a3338-b4eb-4090-8d0c-1c4fb9d55054")
+		)
+		(pin "S1"
+			(uuid "59ce3fad-501e-45d7-bfe3-a214107378fb")
 		)
 		(instances
 			(project "mandreko-deej"
